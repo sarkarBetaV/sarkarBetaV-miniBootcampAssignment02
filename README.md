@@ -30,9 +30,3 @@ const [count, setCount] = useState(0);
 - Events are named using camelCase (`onClick` not `onclick`)
 - Pass functions as event handlers, not strings
 - Can pass parameters using arrow functions
-
-Examples:
-
-<button onClick={handleClick}>Click</button>
-<button onClick={() => handleClick(id)}>With Param</button>
-<input onChange={(e) => setValue(e.target.value)} />
